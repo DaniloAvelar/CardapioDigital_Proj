@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.botoesPizzas{
+    display:flex;
+    margin: 1.5em;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.botaoPizza{
+    width: 240px;
+    margin-right: 20px;
+    font-family: "Raleway";
+}
+
+/* MEDIA SCREEN  */
+@media only screen and (max-width: 1200px) {
+    .botaoPizza{
+        width: 180px;
+        margin: .5em;
+        font-weight: bold;
+    }
+}
