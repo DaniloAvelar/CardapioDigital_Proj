@@ -1,13 +1,27 @@
 import React from 'react'
 
+//CSS
+import styles from './Home.module.css'
+
+//Components
+
+//Bootstrap
+import Carrousel from "../../Component/Carousel/Carrousel"
+import Button from 'react-bootstrap/Button';
+
+
 const Home = () => {
   return (
     <div>
-        <h1>Home</h1>
-        <h3>imagem grande de um lanche</h3>
-        <h4> -- entrando da direita para a esquerda css --</h4>
-        <h4>Entrar</h4>
-        <h4>Cadastrar</h4>
+      <Carrousel />
+      <div className="container">
+        <div className={styles.botoesPizzas}>
+          <Button variant="warning" className={styles.botaoPizza}>Tradicionais</Button>{' '}
+          <Button variant="warning" className={styles.botaoPizza}>Premiums</Button>{' '}
+          <Button variant="warning" className={styles.botaoPizza}>Doces</Button>{' '}
+          <Button variant="warning" className={styles.botaoPizza}>Bebidas</Button>{' '}
+        </div>
+      </div>
     </div>
   )
 }

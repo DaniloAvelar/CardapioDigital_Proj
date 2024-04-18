@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.botoesPizzas{
+    margin-top: 1em;
+}
+
+.botaoPizza{
+    width: 250px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
